@@ -1,0 +1,45 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+h1{
+
+    color: rgb(67, 67, 181);
+}
+form{
+    text-align: center;
+    background-color: white;
+    font-style: italic;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(122, 121, 121, 0.605);
+    max-width: 350px;
+    
+}
+#temp{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 4px;
+
+}
+button{
+color: red;
+font-size: 20px;
+text-align: center;
+border-radius: 3px;
+height: 2em;
+margin-top: 20px;
+}
+label{
+    font-size: 1em;
+    font-weight: bold;
+}
+#result{
+    font-size: 1em;
+    font-weight: bold;
+
+}

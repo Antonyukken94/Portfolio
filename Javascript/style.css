@@ -1,0 +1,25 @@
+#countzero{
+    display: block;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 15em;
+
+}
+#containerbtn{
+    text-align: center;
+}
+
+
+.buttons{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    background-color: rgb(177, 177, 214);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color: rgb(124, 124, 204);
+}
