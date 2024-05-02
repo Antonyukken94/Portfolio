@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(107, 101, 101);
+}
+#header{
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-shadow: 2px 2px 2px;
+
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px;
+    border-radius: 50px;
+    background-color: wheat;
+    padding: 30px;
+}
+#stopwatch{
+    font-size: 5rem;
+    color: brown;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px;
+    margin-bottom: 26px;
+}
+#controls{
+  font-size: 3rem; 
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+
+
+}
+#startBtn{
+    background-color: rgb(28, 206, 28);
+    color: white;
+    text-align: center;
+  
+}
+#stopBtn{
+    background-color: rgb(220, 25, 25);
+    color: rgb(254, 253, 253);
+    text-align: center;
+}
+#resetBtn{
+    background-color: rgb(53, 21, 183);
+    color: white;
+    text-align: center;
+}

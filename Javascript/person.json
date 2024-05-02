@@ -1,0 +1,7 @@
+{
+    "name": "Antony",
+    "age" : "29",
+    "place": "kuriachira ",
+    "isEmployed": true,
+    "hobbies": ["gaming","cooking","videography"]
+}

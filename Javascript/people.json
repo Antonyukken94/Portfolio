@@ -1,0 +1,25 @@
+[{
+    "name": "Antony",
+    "age" : "29",
+    "place": "kuriachira",
+    "isEmployed": true
+},
+{
+    "name": "Hisham",
+    "age" : "31",
+    "place": "pangu",
+    "isEmployed": false
+},
+{
+    "name": "Thala",
+    "age" : "30",
+    "place": "Mundoor",
+    "isEmployed": true
+
+},
+{
+    "name": "Vista",
+    "age" : "29",
+    "place": "Kodussery",
+    "isEmployed": true
+}]
