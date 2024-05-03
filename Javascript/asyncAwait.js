@@ -43,18 +43,21 @@ function takeTrash() {
 
 }
 async function doChores() {
+    try {
 
-    const walkDogRslt = await walkDog();
-    console.log(walkDogRslt);
-    const cleanedKitchenRslt = await cleanKitchen();
-    console.log(cleanedKitchenRslt);
-    const takeOutTrashRslt = await takeTrash();
-    console.log(takeOutTrashRslt);
-    console.log("you finished all chores");
-}
-catch (error){
-    console.error("Error:",error);
+        const walkDogRslt = await walkDog();
+        console.log(walkDogRslt);
+        const cleanedKitchenRslt = await cleanKitchen();
+        console.log(cleanedKitchenRslt);
+        const takeOutTrashRslt = await takeTrash();
+        console.log(takeOutTrashRslt);
+        console.log("you finished all chores");
+    }
+    catch (error) {
+        console.error("Error:", error);
 
+    }
 }
+doChores();
 
 

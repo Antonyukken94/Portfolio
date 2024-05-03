@@ -29,7 +29,7 @@ function cleanKitchen() {
 function takeTrash() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            const takeOutTrash=false;
+            const takeOutTrash=true;
             if(takeOutTrash){
                 resolve("you take out trash"); 
             }

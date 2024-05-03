@@ -1,5 +1,20 @@
-fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
-.then(response => response.json())
-.then(data => console.log(data.name))
+fetchdata();
+async function fetchdata() {
+    try {
+        const poke = document.getElementById("poke").value.toLowerCase();
+        const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${poke}`);
+        if (!response.ok) {
+            throw new Error("could not fetch resource");
+        }
+        const data = await response.json();
+        const pokemonSprite = data.sprites.front_default;
+        const imgElement = document.getElementById("pokemonSprite");
+        imgElement.src = pokemonSprite;
+        imgElement.style.display = "block";
 
-.catch(error=>console.log(error));
+    }
+    catch (error) {
+        console.error(error);
+
+    }
+}
