@@ -19,12 +19,14 @@ body {
 .navBar a:hover {
   color: rgb(55, 205, 55);
 }
+.navBar ul{
+    list-style-type: none;
+}
 .navBar li {
   float: left;
   text-decoration: none;
 }
 .header-xxxl {
-  height: 30px;
   font-size: 3.5rem;
 }
 .dot,
@@ -44,4 +46,24 @@ span {
   padding: 20px;
   width: 50%;
   color: white;
+}
+.btnContainer{
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.myCvBtn{
+  color: white;
+  background-color:black;
+  border-color: white;
+  font-size: 2rem;
+  height: 50px;
+}
+.myCvBtn:hover{
+  color:rgb(55, 205, 55) ;
+
+}
+.abtMe{
+  color: white;
+  padding: 20px;
+  width: 50%;
 }
